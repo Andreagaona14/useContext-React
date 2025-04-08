@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 import { useContextTask } from "../../Context/Context"
 import { ChecklistItem } from "../IU/ChecklistItem"
 
@@ -32,4 +32,3 @@ export const List = () => {
     </section>
   )
 }
-  */
