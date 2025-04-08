@@ -18,7 +18,6 @@ export const App = () => {
       <List/>
       </div>
     </main>
-      
      </>
     
   )
