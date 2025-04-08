@@ -1,4 +1,4 @@
-/*import React, { useState } from 'react'
+import React, { useState } from 'react'
 
 export const Filters = () => {
   const [filter, setFilters ]  = useState("all");
@@ -49,4 +49,3 @@ export const Filters = () => {
     </section>
   )
 }
-*/
