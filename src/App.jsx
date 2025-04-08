@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 import { Form } from "./Components/Pages/Form"
 import { Filters } from "./Components/IU/Filters"
 import { List } from "./Components/Pages/List"
@@ -19,4 +19,3 @@ export const App = () => {
     
   )
 }
-  */
