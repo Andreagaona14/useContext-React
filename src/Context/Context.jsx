@@ -1,4 +1,4 @@
-/*import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 const contextTask = createContext();
 
@@ -31,8 +31,8 @@ export const ProviderTask = ({ children }) => {
 
   return(
     <>
-      {/* Proveedor del contexto global */
-  /*    <contextTask.Provider value={{
+     {/* Proveedor del contexto global */} 
+     <contextTask.Provider value={{
         title, 
         setTitle,
         description, 
@@ -52,4 +52,3 @@ export const ProviderTask = ({ children }) => {
 }
 
 export const useContextTask = () => useContext(contextTask);
-*/
