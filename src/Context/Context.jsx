@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
-const contextTask = createContext();
+const taskContext = createContext();
 
 export const ProviderTask = ({ children }) => { 
   // Estados que se globalizan
@@ -32,7 +32,7 @@ export const ProviderTask = ({ children }) => {
   return(
     <>
      {/* Proveedor del contexto global */} 
-     <contextTask.Provider value={{
+     <taskContext.Provider value={{
         title, 
         setTitle,
         description, 
@@ -46,9 +46,9 @@ export const ProviderTask = ({ children }) => {
         deleteTask, // Añadimos las tareas filtradas al contexto
       }}>
         {children}
-      </contextTask.Provider> 
+      </taskContext.Provider> 
     </>
   )
 }
 
-export const useContextTask = () => useContext(contextTask);
+export const useContextTask = () => useContext(taskContext);

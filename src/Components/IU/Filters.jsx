@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
+import { useContextTask } from '../../Context/Context';
 
 export const Filters = () => {
-  const [filter, setFilters ]  = useState("all");
+  const {filter, setFilter }  = useContextTask();
 
   const handleChange = (e) => {
-    setFilters(e.target.value);
-  };
+    setFilter(e.target.value)
+  }
 
   return (
     <section className='flex justify-center mb-6 space-x-4'>
